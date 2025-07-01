@@ -14,7 +14,7 @@ public class SwaggerConfig {
     @Bean
     public OpenAPI customOpenAPI() {
         Server server = new Server();
-        server.setUrl("https://usuarios-api-production.up.railway.app");
+        server.setUrl("https://usuarios-api-production-9dd3.up.railway.app");
         server.setDescription("Servidor Railway HTTPS");
 
         return new OpenAPI()
